@@ -1,8 +1,8 @@
 def atm():
-    balance = 10000  # Requirement 2
+    balance = 10000  
     print("Welcome to Python ATM!")
 
-    while True:  # Requirement 4 - loop
+    while True:  
         print("\n--- ATM Menu ---")
         print("1. Check Balance")
         print("2. Deposit")
@@ -11,7 +11,6 @@ def atm():
 
         choice = input("Enter choice (1-4): ")
 
-        # Requirement 5 - conditional statements
         if choice == '1':
             print(f"Current Balance: ₹{balance}")
 
